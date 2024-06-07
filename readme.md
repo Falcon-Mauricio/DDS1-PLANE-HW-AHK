@@ -1,6 +1,11 @@
 # Vuelos y Aeropuertos 
 ### Contexto general 
-En esta oportunidad hemos sido contratados para diseñar y desarrollar un sistema de Gestión de Vuelos y Aeropuertos.  Una aerolínea ofrece vuelos para transportar pasajeros, en aviones, entre diferentes ciudades.  Cada vuelo parte de un aeropuerto de inicio y arriba a un aeropuerto destino. Algunos vuelos pueden tener escalas intermedias. Los aeropuertos están localizados en ciudades, pudiendo tener una ciudad más de un aeropuerto.  A cada vuelo se le asigna un avión y una tripulación, la cual consta de 2 pilotos, 1 operador de comunicaciones, 2 comisarios de abordo y 4 azafatas.  Cada pasajero de un vuelo tiene asignado un asiento. 
+En esta oportunidad hemos sido contratados para diseñar y desarrollar un sistema de Gestión de Vuelos y Aeropuertos.  
+Una aerolínea ofrece vuelos para transportar pasajeros, en aviones, entre diferentes ciudades.  
+Cada vuelo parte de un aeropuerto de inicio y arriba a un aeropuerto destino. 
+Algunos vuelos pueden tener escalas intermedias. Los aeropuertos están localizados en ciudades, pudiendo tener una ciudad más de un aeropuerto.  
+A cada vuelo se le asigna un avión y una tripulación, la cual consta de 2 pilotos, 1 operador de comunicaciones, 2 comisarios de abordo y 4 azafatas.  
+Cada pasajero de un vuelo tiene asignado un asiento. 
 
 ## Requerimientos 
 
