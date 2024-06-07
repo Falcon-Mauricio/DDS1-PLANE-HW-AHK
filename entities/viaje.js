@@ -20,9 +20,9 @@ export class Viaje {
 
     duracionTotalAproxEnMinDeLaEscala(){
         let duracionDeLaEscalaAprox = 0;
-        for(let i = 0; i < this.escalas.length; i++){
-            duracionDeLaEscalaAprox += this.escalas[i].duracionAproxEnMin;
-        }
+        this.escalas.forEach((unaEscala) => {
+            duracionDeLaEscalaAprox += unaEscala.duracionAproxEnMin;
+        });
         return duracionDeLaEscalaAprox;
     }
 
