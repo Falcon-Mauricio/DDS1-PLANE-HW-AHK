@@ -19,4 +19,9 @@ export class Ciudad {
             });
         });
     }
+
+    tenesAeropuerto(unAeropuerto){
+        return this.aeropuertos.includes(unAeropuerto);
+
+    }
 }

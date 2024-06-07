@@ -29,3 +29,5 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 **9**. La cantidad de vuelos que realizó una tripulación en un periodo de tiempo determinado (en meses). 
 
 **10**. La aerolínea con mayor cantidad de pasajeros en un mes determinado. 
+
+//Del 4 al 8 hacer los test. El 10 pensar y hacer
