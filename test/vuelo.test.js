@@ -1,7 +1,7 @@
 import { Vuelo } from "../entities/vuelo";
 import { Avion } from "../entities/avion";
 import { Pasajero } from "../entities/pasajero";
-
+// 1. La capacidad de un vuelo ocupada por pasajeros. 
 let pasajeroFeliz1;
 let pasajeroFeliz2;
 let avionFeliz;
