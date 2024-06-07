@@ -35,4 +35,8 @@ export class Vuelo {
     llegasteEnFecha(fecha){
         return this.fechaHoraLlegada == fecha;
     }
+
+    cantidadPasajeros(){
+        return this.pasajeros.length;
+    }
 }

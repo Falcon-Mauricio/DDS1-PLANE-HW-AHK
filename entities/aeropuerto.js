@@ -19,6 +19,10 @@ export class Aeropuerto {
         return this.vuelos.filter((v) => v.llegasteA(this));
 
     }
+    
+    vuelosQueLlegaronHastaAquiElDia(dia){
+        return this.vuelosQueLlegaronHastaAqui().filter(v => v.llegasteEnFecha(dia))
+    }
 
     cantidadVuelosQuePartieron(fecha){
         let cant = 0;
@@ -28,7 +32,7 @@ export class Aeropuerto {
     }
     
     cantidadVuelosQueLlegaron(fecha){
-        return this.vuelosQueLlegaronHastaAqui().filter(v => v.llegasteEnFecha(fecha)).length;
+        return vuelosQueLlegaronHastaAquiElDia(fecha).length;
     }
 
     cantidadEscalas(){

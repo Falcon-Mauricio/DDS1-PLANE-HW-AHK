@@ -22,7 +22,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **6**. La cantidad de aeropuertos que tiene una ciudad. //Test pendiente
 
-**7**. La ciudad que más pasajeros recibió en un día. 
+**7**. La ciudad que más pasajeros recibió en un día. //Test pendiente
 
 **8**. La cantidad de veces que un pasajero visitó una ciudad. 
 
