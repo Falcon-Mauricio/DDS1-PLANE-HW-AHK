@@ -16,7 +16,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **3**. La cantidad de vuelos que partieron de un aeropuerto, así como también la cantidad de vuelos que a él llegaron, en un día determinado. 
 
-**4**. El aeropuerto que recibió menos vuelos en escalas. 
+**4**. El aeropuerto que recibió menos vuelos en escalas.  //Test pendiente
 
 **5**. La cantidad de vuelos totales que realizó un pasajero. 
 

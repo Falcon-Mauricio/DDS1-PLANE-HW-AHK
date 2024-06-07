@@ -1,6 +1,10 @@
 import { Aeropuerto } from "../entities/aeropuerto";
 import { Vuelo } from "../entities/vuelo";
-
+/**
+ * 3. La cantidad de vuelos que partieron de un aeropuerto,
+ *  así como también la cantidad de vuelos que a él llegaron,
+ *  en un día determinado. 
+ */
 test("Dos vuelos salieron el 2024/06/07 de Buenos Aires", () => {
     const aeropuertoBsAS = new Aeropuerto();
 

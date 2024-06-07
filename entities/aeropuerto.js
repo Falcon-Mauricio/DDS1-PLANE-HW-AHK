@@ -1,6 +1,11 @@
 export class Aeropuerto {
     nombre;
     vuelos = [];
+    escalas = [];
+
+    agregarEscala(escala){
+        this.escalas.push(escala);
+    }
 
     agregarVuelo(vuelo){
         this.vuelos.push(vuelo);
@@ -24,5 +29,9 @@ export class Aeropuerto {
     
     cantidadVuelosQueLlegaron(fecha){
         return this.vuelosQueLlegaronHastaAqui().filter(v => v.llegasteEnFecha(fecha)).length;
+    }
+
+    cantidadEscalas(){
+        return this.escalas.length;
     }
 }
