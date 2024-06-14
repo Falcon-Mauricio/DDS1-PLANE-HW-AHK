@@ -18,7 +18,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **4**. El aeropuerto que recibió menos vuelos en escalas.
 
-**5**. La cantidad de vuelos totales que realizó un pasajero. //Test pendiente
+**5**. La cantidad de vuelos totales que realizó un pasajero.
 
 **6**. La cantidad de aeropuertos que tiene una ciudad. //Test pendiente
 
