@@ -30,4 +30,5 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **10**. La aerolínea con mayor cantidad de pasajeros en un mes determinado. 
 
-//Del 4 al 8 hacer los test. El 10 pensar y hacer
+// El 10 pensar y opcional hacer
+// Posbile soulucion: RankerAerolineas -> Aerolineas -> vuelo -> cantidadDePasajeros
