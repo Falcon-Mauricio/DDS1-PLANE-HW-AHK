@@ -6,7 +6,7 @@ export class Ciudad {
         this.aeropuertos.push(aeropuerto);
     }
 
-    cantidadAeropuesrtos(){
+    cantidadAeropuertos(){
         return this.aeropuertos.length;
     }
 
