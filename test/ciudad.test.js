@@ -1,6 +1,6 @@
 import { Ciudad } from "../entities/ciudad";
 import { Aeropuerto } from "../entities/aeropuerto";
-
+/*6. La cantidad de aeropuertos que tiene una ciudad.*/
 test("La cantidad de aeropuertos que tiene una ciudad debería ser 3", () => {
     // Crear una ciudad
     const ciudad = new Ciudad();

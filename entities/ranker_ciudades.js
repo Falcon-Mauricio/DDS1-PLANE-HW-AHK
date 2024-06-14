@@ -1,16 +1,16 @@
 export class RankerDeCiudades {
-
     ciudadQueMasPasajerosRecibioEl(dia, ciudades){
         let ciudadConMasPasajeros;
-        let cantidadPasajeros = -99999999;
+        let cantidadPasajeros = -1;
 
-        ciudades.forEach(c => {
-            if(a.cantidadPasajerosQueLlegaronEl(dia) < cantidadPasajeros){
-                cantidadPasajeros = c.cantidadPasajerosQueLlegaronEl(dia);
-                ciudadConMasPasajeros = c;
+        ciudades.forEach(ciudad => {
+            const cantidadActual = ciudad.cantidadPasajerosQueLlegaronEl(dia);
+            if (cantidadActual > cantidadPasajeros) {
+                cantidadPasajeros = cantidadActual;
+                ciudadConMasPasajeros = ciudad;
             }            
         });
- 
+
         return ciudadConMasPasajeros;
     }
 }

@@ -18,6 +18,7 @@ export class Ciudad {
                 cantidadPasajeros += v.cantidadPasajeros();
             });
         });
+        return cantidadPasajeros;
     }
 
     tenesAeropuerto(unAeropuerto){
