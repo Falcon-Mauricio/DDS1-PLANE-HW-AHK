@@ -3,7 +3,7 @@ import { Aeropuerto } from "../entities/aeropuerto";
 import { Vuelo } from "../entities/vuelo";
 import { Pasajero } from "../entities/pasajero";
 import { RankerDeCiudades } from "../entities/ranker_ciudades";
-
+/*7. La ciudad que más pasajeros recibió en un día.*/
 test("La ciudad que más pasajeros recibió en un día debería ser ciudad2", () => {
     // Crear ciudades
     const ciudad1 = new Ciudad();
