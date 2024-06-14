@@ -32,7 +32,7 @@ export class Aeropuerto {
     }
     
     cantidadVuelosQueLlegaron(fecha){
-        return vuelosQueLlegaronHastaAquiElDia(fecha).length;
+        return this.vuelosQueLlegaronHastaAquiElDia(fecha).length;
     }
 
     cantidadEscalas(){

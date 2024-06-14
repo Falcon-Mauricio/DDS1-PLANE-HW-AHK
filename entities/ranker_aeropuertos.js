@@ -1,4 +1,4 @@
-export class RankeadorDeAeropuesrtos {
+export class RankeadorDeAeropuertos {
     
     aeropuertoConMenorCantidadDeEscalas(aeropuertos){
         let aeropuertoConMenorEscalas;

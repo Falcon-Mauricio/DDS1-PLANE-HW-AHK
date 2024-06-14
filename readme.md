@@ -16,7 +16,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **3**. La cantidad de vuelos que partieron de un aeropuerto, así como también la cantidad de vuelos que a él llegaron, en un día determinado. 
 
-**4**. El aeropuerto que recibió menos vuelos en escalas.  //Test pendiente
+**4**. El aeropuerto que recibió menos vuelos en escalas.
 
 **5**. La cantidad de vuelos totales que realizó un pasajero. //Test pendiente
 
@@ -24,7 +24,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **7**. La ciudad que más pasajeros recibió en un día. //Test pendiente
 
-**8**. La cantidad de veces que un pasajero visitó una ciudad. 
+**8**. La cantidad de veces que un pasajero visitó una ciudad. //Test pendiente 
 
 **9**. La cantidad de vuelos que realizó una tripulación en un periodo de tiempo determinado (en meses). 
 
