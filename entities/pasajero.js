@@ -13,6 +13,6 @@ export class Pasajero {
 //consideramos que un pasajeros visito una ciudad partio de un aeropuerto
 //si partio de un aeropuesyo que estaba en esa ciudad
     cantidadVecesQueVisitaste(unaCiudad){
-        return this.vuelos.filter(v => unaCiudad.tenesAeropuerto(v.aeropuertoPartida).length)
+        return this.vuelos.filter(v => unaCiudad.tenesAeropuerto(v.aeropuertoPartida)).length
     }
 }

@@ -24,7 +24,7 @@ Cada pasajero de un vuelo tiene asignado un asiento.
 
 **7**. La ciudad que más pasajeros recibió en un día.
 
-**8**. La cantidad de veces que un pasajero visitó una ciudad. //Test pendiente 
+**8**. La cantidad de veces que un pasajero visitó una ciudad.
 
 **9**. La cantidad de vuelos que realizó una tripulación en un periodo de tiempo determinado (en meses). 
 
